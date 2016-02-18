@@ -1,4 +1,53 @@
 body{
-  width:80%;
+  width:100%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+
+.box{
+  width:16.6%;
+  border-style: none;
+  border-color:red;
+  border-width:thin;
+  background-color: none;
+  display:inline-block;
+  margin:0;
+  margin-top:-2px;
+}
+
+.box img {
+  width:100%;
+}
+
+
+@media (max-width: 1120px) {
+
+  .box{
+    width: 20%;
+  }
+
+}
+
+@media (max-width: 945px) {
+
+  .box{
+    width: 25%;
+  }
+
+}
+
+@media (max-width: 660px) {
+
+  .box{
+    width: 33.3%;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .box{
+    width: 50%;
+  }
 
 }
